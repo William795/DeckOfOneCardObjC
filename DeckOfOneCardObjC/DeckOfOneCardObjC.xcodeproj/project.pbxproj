@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9217C9FD22949771008B3235 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9217C9FC22949771008B3235 /* AppDelegate.m */; };
+		9217CA0322949771008B3235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9217CA0122949771008B3235 /* Main.storyboard */; };
+		9217CA0522949773008B3235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9217CA0422949773008B3235 /* Assets.xcassets */; };
+		9217CA0822949773008B3235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9217CA0622949773008B3235 /* LaunchScreen.storyboard */; };
+		9217CA0B22949773008B3235 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9217CA0A22949773008B3235 /* main.m */; };
+		9217CA1522949773008B3235 /* DeckOfOneCardObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9217CA1422949773008B3235 /* DeckOfOneCardObjCTests.m */; };
+		9217CA2022949773008B3235 /* DeckOfOneCardObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9217CA1F22949773008B3235 /* DeckOfOneCardObjCUITests.m */; };
+		9217CA3022949836008B3235 /* WILDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 9217CA2F22949836008B3235 /* WILDeck.m */; };
+		9217CA3722949A77008B3235 /* WILDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9217CA3622949A77008B3235 /* WILDeckController.m */; };
+		9217CA3A2294A3EC008B3235 /* WILDeckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9217CA392294A3EC008B3235 /* WILDeckViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9217CA1122949773008B3235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9217C9F022949771008B3235 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9217C9F722949771008B3235;
+			remoteInfo = DeckOfOneCardObjC;
+		};
+		9217CA1C22949773008B3235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9217C9F022949771008B3235 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9217C9F722949771008B3235;
+			remoteInfo = DeckOfOneCardObjC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9217C9F822949771008B3235 /* DeckOfOneCardObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeckOfOneCardObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9217C9FB22949771008B3235 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9217C9FC22949771008B3235 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9217CA0222949771008B3235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9217CA0422949773008B3235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9217CA0722949773008B3235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9217CA0922949773008B3235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9217CA0A22949773008B3235 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9217CA1022949773008B3235 /* DeckOfOneCardObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeckOfOneCardObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9217CA1422949773008B3235 /* DeckOfOneCardObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeckOfOneCardObjCTests.m; sourceTree = "<group>"; };
+		9217CA1622949773008B3235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9217CA1B22949773008B3235 /* DeckOfOneCardObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeckOfOneCardObjCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9217CA1F22949773008B3235 /* DeckOfOneCardObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeckOfOneCardObjCUITests.m; sourceTree = "<group>"; };
+		9217CA2122949773008B3235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9217CA2E22949836008B3235 /* WILDeck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WILDeck.h; sourceTree = "<group>"; };
+		9217CA2F22949836008B3235 /* WILDeck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WILDeck.m; sourceTree = "<group>"; };
+		9217CA3522949A77008B3235 /* WILDeckController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WILDeckController.h; sourceTree = "<group>"; };
+		9217CA3622949A77008B3235 /* WILDeckController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WILDeckController.m; sourceTree = "<group>"; };
+		9217CA382294A3EB008B3235 /* DeckOfOneCardObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeckOfOneCardObjC-Bridging-Header.h"; sourceTree = "<group>"; };
+		9217CA392294A3EC008B3235 /* WILDeckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WILDeckViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9217C9F522949771008B3235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9217CA0D22949773008B3235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9217CA1822949773008B3235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9217C9EF22949771008B3235 = {
+			isa = PBXGroup;
+			children = (
+				9217C9FA22949771008B3235 /* DeckOfOneCardObjC */,
+				9217CA1322949773008B3235 /* DeckOfOneCardObjCTests */,
+				9217CA1E22949773008B3235 /* DeckOfOneCardObjCUITests */,
+				9217C9F922949771008B3235 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9217C9F922949771008B3235 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9217C9F822949771008B3235 /* DeckOfOneCardObjC.app */,
+				9217CA1022949773008B3235 /* DeckOfOneCardObjCTests.xctest */,
+				9217CA1B22949773008B3235 /* DeckOfOneCardObjCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9217C9FA22949771008B3235 /* DeckOfOneCardObjC */ = {
+			isa = PBXGroup;
+			children = (
+				9217CA2D22949783008B3235 /* Resources */,
+				9217CA0122949771008B3235 /* Main.storyboard */,
+				9217CA342294984E008B3235 /* Models */,
+				9217CA3522949A77008B3235 /* WILDeckController.h */,
+				9217CA3622949A77008B3235 /* WILDeckController.m */,
+				9217CA392294A3EC008B3235 /* WILDeckViewController.swift */,
+				9217CA382294A3EB008B3235 /* DeckOfOneCardObjC-Bridging-Header.h */,
+			);
+			path = DeckOfOneCardObjC;
+			sourceTree = "<group>";
+		};
+		9217CA1322949773008B3235 /* DeckOfOneCardObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				9217CA1422949773008B3235 /* DeckOfOneCardObjCTests.m */,
+				9217CA1622949773008B3235 /* Info.plist */,
+			);
+			path = DeckOfOneCardObjCTests;
+			sourceTree = "<group>";
+		};
+		9217CA1E22949773008B3235 /* DeckOfOneCardObjCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9217CA1F22949773008B3235 /* DeckOfOneCardObjCUITests.m */,
+				9217CA2122949773008B3235 /* Info.plist */,
+			);
+			path = DeckOfOneCardObjCUITests;
+			sourceTree = "<group>";
+		};
+		9217CA2D22949783008B3235 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9217C9FB22949771008B3235 /* AppDelegate.h */,
+				9217C9FC22949771008B3235 /* AppDelegate.m */,
+				9217CA0422949773008B3235 /* Assets.xcassets */,
+				9217CA0622949773008B3235 /* LaunchScreen.storyboard */,
+				9217CA0922949773008B3235 /* Info.plist */,
+				9217CA0A22949773008B3235 /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9217CA342294984E008B3235 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9217CA2E22949836008B3235 /* WILDeck.h */,
+				9217CA2F22949836008B3235 /* WILDeck.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9217C9F722949771008B3235 /* DeckOfOneCardObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9217CA2422949773008B3235 /* Build configuration list for PBXNativeTarget "DeckOfOneCardObjC" */;
+			buildPhases = (
+				9217C9F422949771008B3235 /* Sources */,
+				9217C9F522949771008B3235 /* Frameworks */,
+				9217C9F622949771008B3235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeckOfOneCardObjC;
+			productName = DeckOfOneCardObjC;
+			productReference = 9217C9F822949771008B3235 /* DeckOfOneCardObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9217CA0F22949773008B3235 /* DeckOfOneCardObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9217CA2722949773008B3235 /* Build configuration list for PBXNativeTarget "DeckOfOneCardObjCTests" */;
+			buildPhases = (
+				9217CA0C22949773008B3235 /* Sources */,
+				9217CA0D22949773008B3235 /* Frameworks */,
+				9217CA0E22949773008B3235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9217CA1222949773008B3235 /* PBXTargetDependency */,
+			);
+			name = DeckOfOneCardObjCTests;
+			productName = DeckOfOneCardObjCTests;
+			productReference = 9217CA1022949773008B3235 /* DeckOfOneCardObjCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9217CA1A22949773008B3235 /* DeckOfOneCardObjCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9217CA2A22949773008B3235 /* Build configuration list for PBXNativeTarget "DeckOfOneCardObjCUITests" */;
+			buildPhases = (
+				9217CA1722949773008B3235 /* Sources */,
+				9217CA1822949773008B3235 /* Frameworks */,
+				9217CA1922949773008B3235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9217CA1D22949773008B3235 /* PBXTargetDependency */,
+			);
+			name = DeckOfOneCardObjCUITests;
+			productName = DeckOfOneCardObjCUITests;
+			productReference = 9217CA1B22949773008B3235 /* DeckOfOneCardObjCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9217C9F022949771008B3235 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WIL;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "William Moody";
+				TargetAttributes = {
+					9217C9F722949771008B3235 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+					9217CA0F22949773008B3235 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9217C9F722949771008B3235;
+					};
+					9217CA1A22949773008B3235 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9217C9F722949771008B3235;
+					};
+				};
+			};
+			buildConfigurationList = 9217C9F322949771008B3235 /* Build configuration list for PBXProject "DeckOfOneCardObjC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9217C9EF22949771008B3235;
+			productRefGroup = 9217C9F922949771008B3235 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9217C9F722949771008B3235 /* DeckOfOneCardObjC */,
+				9217CA0F22949773008B3235 /* DeckOfOneCardObjCTests */,
+				9217CA1A22949773008B3235 /* DeckOfOneCardObjCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9217C9F622949771008B3235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9217CA0822949773008B3235 /* LaunchScreen.storyboard in Resources */,
+				9217CA0522949773008B3235 /* Assets.xcassets in Resources */,
+				9217CA0322949771008B3235 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9217CA0E22949773008B3235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9217CA1922949773008B3235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9217C9F422949771008B3235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9217CA0B22949773008B3235 /* main.m in Sources */,
+				9217CA3A2294A3EC008B3235 /* WILDeckViewController.swift in Sources */,
+				9217CA3722949A77008B3235 /* WILDeckController.m in Sources */,
+				9217CA3022949836008B3235 /* WILDeck.m in Sources */,
+				9217C9FD22949771008B3235 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9217CA0C22949773008B3235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9217CA1522949773008B3235 /* DeckOfOneCardObjCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9217CA1722949773008B3235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9217CA2022949773008B3235 /* DeckOfOneCardObjCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9217CA1222949773008B3235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9217C9F722949771008B3235 /* DeckOfOneCardObjC */;
+			targetProxy = 9217CA1122949773008B3235 /* PBXContainerItemProxy */;
+		};
+		9217CA1D22949773008B3235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9217C9F722949771008B3235 /* DeckOfOneCardObjC */;
+			targetProxy = 9217CA1C22949773008B3235 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9217CA0122949771008B3235 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9217CA0222949771008B3235 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9217CA0622949773008B3235 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9217CA0722949773008B3235 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9217CA2222949773008B3235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9217CA2322949773008B3235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9217CA2522949773008B3235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/DeckOfOneCardObjC/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "William-Moody.DeckOfOneCardObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DeckOfOneCardObjC/DeckOfOneCardObjC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9217CA2622949773008B3235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/DeckOfOneCardObjC/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "William-Moody.DeckOfOneCardObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DeckOfOneCardObjC/DeckOfOneCardObjC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9217CA2822949773008B3235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeckOfOneCardObjCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "William-Moody.DeckOfOneCardObjCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeckOfOneCardObjC.app/DeckOfOneCardObjC";
+			};
+			name = Debug;
+		};
+		9217CA2922949773008B3235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeckOfOneCardObjCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "William-Moody.DeckOfOneCardObjCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeckOfOneCardObjC.app/DeckOfOneCardObjC";
+			};
+			name = Release;
+		};
+		9217CA2B22949773008B3235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeckOfOneCardObjCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "William-Moody.DeckOfOneCardObjCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeckOfOneCardObjC;
+			};
+			name = Debug;
+		};
+		9217CA2C22949773008B3235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeckOfOneCardObjCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "William-Moody.DeckOfOneCardObjCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeckOfOneCardObjC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9217C9F322949771008B3235 /* Build configuration list for PBXProject "DeckOfOneCardObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9217CA2222949773008B3235 /* Debug */,
+				9217CA2322949773008B3235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9217CA2422949773008B3235 /* Build configuration list for PBXNativeTarget "DeckOfOneCardObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9217CA2522949773008B3235 /* Debug */,
+				9217CA2622949773008B3235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9217CA2722949773008B3235 /* Build configuration list for PBXNativeTarget "DeckOfOneCardObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9217CA2822949773008B3235 /* Debug */,
+				9217CA2922949773008B3235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9217CA2A22949773008B3235 /* Build configuration list for PBXNativeTarget "DeckOfOneCardObjCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9217CA2B22949773008B3235 /* Debug */,
+				9217CA2C22949773008B3235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9217C9F022949771008B3235 /* Project object */;
+}
